@@ -6,6 +6,7 @@ import DetailHot from './components/DetailHot.vue'
 import XtxSku from '@/components/XtxSku/index.vue'
 import { ElMessage } from 'element-plus'
 import { useCartStore } from '@/stores'
+import ImageView from '@/components/ImageView.vue'
 
 const goodsDetail = ref({})
 const route = useRoute()

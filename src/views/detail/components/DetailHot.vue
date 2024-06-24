@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { getHotGoodsService } from '@/apis/detail'
+import GoodsItem from '@/components/GoodsItem.vue'
 
 const HotGoods = ref({})
 const route = useRoute()
